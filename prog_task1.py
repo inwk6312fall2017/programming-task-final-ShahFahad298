@@ -16,15 +16,11 @@ for line in file3:
 	words3 = word3.split(',')
 list1 = []
 list2 = []
-	
+max_length = len(max(words1,word2,word3))
 for word in file1:
 	for word in file2:
 		for word in flie3:
-			if word in words1 > words2 and words:
-				word.apped(list1)
-			return list1
-			elif word in words2 > words1 and words3:
-				word.append(list2)
-			elif word in words3 > words2 and words1:
-				
+			if len(words1) or len(words2) or len(words) == max_lenght:
+			return ( max_lenght)
+print(max_lenght)
 
